@@ -1,4 +1,4 @@
-Permissions - Policy: interest - cohort=();
+
 
 //Tomar la url y redir
 var url = window.location.href;
