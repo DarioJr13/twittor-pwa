@@ -1,3 +1,4 @@
+
 //Imports
 importScripts('js/sw-utils.js');
 
