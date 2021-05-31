@@ -1,4 +1,3 @@
-Permissions - Policy: interest - cohort=();
 //Imports
 importScripts('js/sw-utils.js');
 
