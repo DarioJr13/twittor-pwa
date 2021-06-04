@@ -1,16 +1,17 @@
-
-
 //Tomar la url y redir
 var url = window.location.href;
-var swLocation = '/twittor/sw.js';
+var swLocation = '/twittor-pwa/sw.js';
 
 
-if (navigator.serviceWorker ) {
+if ( navigator.serviceWorker ) {
 
-    if (url.includes('localhost')) {
+
+    if ( url.includes('localhost') ) {
         swLocation = '/sw.js';
     }
-    navigator.serviceWorker.register(swLocation);
+
+
+    navigator.serviceWorker.register( swLocation );
 }
 
 
